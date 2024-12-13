@@ -26,7 +26,7 @@ The system consists of four main boards, each assigned specific tasks:
 Board 1: Temperature and Humidity Sensing
 - Reads temperature and humidity data using a DHT11 sensor**.
 - Toggles data transmission with a push button.
-- Uses ADC (Analog-to-Digital Converter)for sensor readings and GPIO for input/output handling.
+- Uses  GPIO for input/output handling.
 - Configured with external interrupts for button presses using EICRA and EIMSK registers.
 
 Board 2: Data Logging
